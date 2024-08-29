@@ -7,8 +7,21 @@
 </head>
 <body>
     <h1>It's a Rock Paper Scissors Game!</h1>
-    <h2>Psst.. It's in the Console...</h2>
-    <button onclick ="playGame()">Play</button>
-    <script src="script.js"></script>
+    
+    <div class="game-controls">
+        <button class="game-button" value="Rock">Rock</button>
+        <button class="game-button" value="Paper">Paper</button>
+        <button class="game-button" value="Scissors">Scissors</button>
+    </div>
+
+    <div class="game-display">
+        <p class="current-round"></p>
+        <p class="player-choice"></p>
+        <p class="computer-choice"></p>
+        <p class="round-outcome"></p>
+        <p class="score"></p>
+    </div>
+
+    <script src="script.js" type="module"></script>
 </body>
 </html>
